@@ -1,5 +1,5 @@
-#include "math_utils.h"
-#include <iostream>
+#include "greet.h"
 int main() {
-    std::cout << mid_price(99.98, 100.2) << '\n';
+    greet();
+    return 0;
 }
