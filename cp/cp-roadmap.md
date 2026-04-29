@@ -1,277 +1,266 @@
 ---
 date: 2026-04-29
-tags: [cp, leetcode, quant, roadmap, tracker]
+tags: [cp, leetcode, roadmap, tracker]
 ---
 
-# Competitive Programming + LeetCode Roadmap
+# CP Roadmap — Competitive Programming Curriculum
 
-> **Goal:** Build interview-ready DSA fluency in C++ for quant interviews. Daily problem with progressive hints + walkthrough. 168 days, topic-progressive.
+> **Goal:** Build algorithmic problem-solving skills from zero to quant-ready in 168 days. Daily ~45-min sessions: attempt the problem, read the lesson, internalize the pattern.
 
-> **How this works:** A scheduled routine runs daily at 4am. It reads `current_day`, looks up that day's problem and topic, generates a full lesson note (problem + hints + C++ solution + complexity + pitfalls), updates this tracker, commits and pushes.
-
-> **C++ note:** You're learning C++ in parallel (`cpp-quant/`). Lessons here may use STL features before they're formally introduced there. Each lesson annotates new C++ features with a one-liner and points to the day they're covered.
+> **How this works:** A scheduled task runs daily. It reads `current_day` below, generates that lesson as a new note in the matching phase folder, marks the day complete here, and increments `current_day`.
 
 ## State
 
-- **current_day:** 1
-- **last_completed:** none
+- **current_day:** 2
+- **last_completed:** Day 1 — Two Sum (2026-04-29)
 - **start_date:** 2026-04-29
-- **format:** Problem → 3 progressive hints → approach → C++ solution → complexity → pitfalls → related problems
 
 ## Phase 1 — Foundations (Days 1–28) — `01-foundations/`
 
-### Week 1 — Arrays & Strings I (basics)
+> Arrays, Hash Maps/Sets, Strings, Two Pointers, Sliding Window, Monotonic Structures, Binary Search
 
-- [ ] Day 1 — Two Sum (LC #1)
+**Week 1 — Arrays & Hash Maps**
+- [x] Day 1 — Two Sum (LC #1) — [link](01-foundations/2026-04-29-day-01-two-sum.md)
 - [ ] Day 2 — Best Time to Buy and Sell Stock (LC #121)
 - [ ] Day 3 — Contains Duplicate (LC #217)
-- [ ] Day 4 — Maximum Subarray / Kadane's (LC #53)
-- [ ] Day 5 — Reverse String (LC #344)
-- [ ] Day 6 — Valid Palindrome (LC #125)
-- [ ] Day 7 — Plus One (LC #66)
+- [ ] Day 4 — Product of Array Except Self (LC #238)
+- [ ] Day 5 — Maximum Subarray (LC #53)
+- [ ] Day 6 — Valid Anagram (LC #242)
+- [ ] Day 7 — Group Anagrams (LC #49)
 
-### Week 2 — Arrays & Strings II (manipulation)
+**Week 2 — Strings & Two Pointers**
+- [ ] Day 8 — Valid Palindrome (LC #125)
+- [ ] Day 9 — Three Sum (LC #15)
+- [ ] Day 10 — Container With Most Water (LC #11)
+- [ ] Day 11 — Longest Substring Without Repeating Characters (LC #3)
+- [ ] Day 12 — Minimum Window Substring (LC #76)
+- [ ] Day 13 — Longest Palindromic Substring (LC #5)
+- [ ] Day 14 — Top K Frequent Elements (LC #347)
 
-- [ ] Day 8 — Move Zeroes (LC #283)
-- [ ] Day 9 — Remove Element (LC #27)
-- [ ] Day 10 — Rotate Array (LC #189)
-- [ ] Day 11 — Product of Array Except Self (LC #238)
-- [ ] Day 12 — Reverse Words in a String (LC #151)
-- [ ] Day 13 — String to Integer (atoi) (LC #8)
-- [ ] Day 14 — Find All Numbers Disappeared in an Array (LC #448)
+**Week 3 — Stacks & Monotonic Structures**
+- [ ] Day 15 — Valid Parentheses (LC #20)
+- [ ] Day 16 — Min Stack (LC #155)
+- [ ] Day 17 — Daily Temperatures (LC #739)
+- [ ] Day 18 — Largest Rectangle in Histogram (LC #84)
+- [ ] Day 19 — Trapping Rain Water (LC #42)
+- [ ] Day 20 — Car Fleet (LC #853)
+- [ ] Day 21 — Sliding Window Maximum (LC #239)
 
-### Week 3 — Hash Maps & Sets
-
-- [ ] Day 15 — Valid Anagram (LC #242)
-- [ ] Day 16 — Group Anagrams (LC #49)
-- [ ] Day 17 — Longest Substring Without Repeating Characters (LC #3)
-- [ ] Day 18 — Top K Frequent Elements (LC #347)
-- [ ] Day 19 — Subarray Sum Equals K (LC #560)
-- [ ] Day 20 — Longest Consecutive Sequence (LC #128)
-- [ ] Day 21 — Isomorphic Strings (LC #205)
-
-### Week 4 — Two Pointers
-
-- [ ] Day 22 — Two Sum II (LC #167)
-- [ ] Day 23 — 3Sum (LC #15)
-- [ ] Day 24 — Container With Most Water (LC #11)
-- [ ] Day 25 — Trapping Rain Water (LC #42)
-- [ ] Day 26 — Sort Colors (LC #75)
-- [ ] Day 27 — Merge Sorted Array (LC #88)
-- [ ] Day 28 — Remove Duplicates from Sorted Array (LC #26)
+**Week 4 — Binary Search**
+- [ ] Day 22 — Binary Search (LC #704)
+- [ ] Day 23 — Search in Rotated Sorted Array (LC #33)
+- [ ] Day 24 — Find Minimum in Rotated Sorted Array (LC #153)
+- [ ] Day 25 — Search a 2D Matrix (LC #74)
+- [ ] Day 26 — Kth Largest Element in an Array (LC #215)
+- [ ] Day 27 — Time Based Key-Value Store (LC #981)
+- [ ] Day 28 — Median of Two Sorted Arrays (LC #4)
 
 ## Phase 2 — Linear Data Structures (Days 29–56) — `02-linear-ds/`
 
-### Week 5 — Sliding Window
+> Linked Lists, Priority Queues (Heaps), Intervals, Matrices
 
-- [ ] Day 29 — Maximum Average Subarray I (LC #643)
-- [ ] Day 30 — Permutation in String (LC #567)
-- [ ] Day 31 — Minimum Window Substring (LC #76)
-- [ ] Day 32 — Longest Repeating Character Replacement (LC #424)
-- [ ] Day 33 — Find All Anagrams in a String (LC #438)
-- [ ] Day 34 — Sliding Window Maximum (LC #239)
-- [ ] Day 35 — Fruit Into Baskets (LC #904)
+**Week 5 — Linked Lists I**
+- [ ] Day 29 — Reverse Linked List (LC #206)
+- [ ] Day 30 — Merge Two Sorted Lists (LC #21)
+- [ ] Day 31 — Linked List Cycle (LC #141)
+- [ ] Day 32 — Reorder List (LC #143)
+- [ ] Day 33 — Remove Nth Node From End of List (LC #19)
+- [ ] Day 34 — Copy List with Random Pointer (LC #138)
+- [ ] Day 35 — Add Two Numbers (LC #2)
 
-### Week 6 — Stacks (incl. monotonic)
+**Week 6 — Linked Lists II & Priority Queues**
+- [ ] Day 36 — LRU Cache (LC #146)
+- [ ] Day 37 — Sort List (LC #148)
+- [ ] Day 38 — Merge K Sorted Lists (LC #23)
+- [ ] Day 39 — Find the Duplicate Number (LC #287)
+- [ ] Day 40 — Kth Largest Element in a Stream (LC #703)
+- [ ] Day 41 — Task Scheduler (LC #621)
+- [ ] Day 42 — Design Twitter (LC #355)
 
-- [ ] Day 36 — Valid Parentheses (LC #20)
-- [ ] Day 37 — Min Stack (LC #155)
-- [ ] Day 38 — Evaluate Reverse Polish Notation (LC #150)
-- [ ] Day 39 — Daily Temperatures (LC #739)
-- [ ] Day 40 — Next Greater Element I (LC #496)
-- [ ] Day 41 — Largest Rectangle in Histogram (LC #84)
-- [ ] Day 42 — Generate Parentheses (LC #22)
+**Week 7 — Intervals**
+- [ ] Day 43 — Meeting Rooms (LC #252)
+- [ ] Day 44 — Meeting Rooms II (LC #253)
+- [ ] Day 45 — Insert Interval (LC #57)
+- [ ] Day 46 — Merge Intervals (LC #56)
+- [ ] Day 47 — Non-overlapping Intervals (LC #435)
+- [ ] Day 48 — Minimum Number of Arrows to Burst Balloons (LC #452)
+- [ ] Day 49 — Order Book Mini-Design (custom — no LC equivalent)
 
-### Week 7 — Queues, Deques, Heaps intro
-
-- [ ] Day 43 — Implement Queue using Stacks (LC #232)
-- [ ] Day 44 — Number of Recent Calls (LC #933)
-- [ ] Day 45 — Design Hit Counter (LC #362)
-- [ ] Day 46 — Sliding Window Maximum (deque approach) (LC #239)
-- [ ] Day 47 — Kth Largest Element in a Stream (LC #703)
-- [ ] Day 48 — K Closest Points to Origin (LC #973)
-- [ ] Day 49 — Top K Frequent Elements (heap approach) (LC #347)
-
-### Week 8 — Linked Lists
-
-- [ ] Day 50 — Reverse Linked List (LC #206)
-- [ ] Day 51 — Merge Two Sorted Lists (LC #21)
-- [ ] Day 52 — Linked List Cycle (LC #141)
-- [ ] Day 53 — Remove Nth Node From End (LC #19)
-- [ ] Day 54 — Reorder List (LC #143)
-- [ ] Day 55 — Add Two Numbers (LC #2)
-- [ ] Day 56 — LRU Cache (LC #146)
+**Week 8 — Matrices & Advanced Arrays**
+- [ ] Day 50 — Rotate Image (LC #48)
+- [ ] Day 51 — Spiral Matrix (LC #54)
+- [ ] Day 52 — Set Matrix Zeroes (LC #73)
+- [ ] Day 53 — Word Search (LC #79)
+- [ ] Day 54 — Game of Life (LC #289)
+- [ ] Day 55 — Longest Consecutive Sequence (LC #128)
+- [ ] Day 56 — VWAP Rolling Window (custom — no LC equivalent)
 
 ## Phase 3 — Search (Days 57–70) — `03-search/`
 
-### Week 9 — Binary Search
+> Binary Search on Answer, BFS, DFS, Grid Traversal
 
-- [ ] Day 57 — Binary Search (LC #704)
-- [ ] Day 58 — Search in Rotated Sorted Array (LC #33)
-- [ ] Day 59 — Find Minimum in Rotated Sorted Array (LC #153)
-- [ ] Day 60 — Find First and Last Position (LC #34)
-- [ ] Day 61 — Search a 2D Matrix (LC #74)
-- [ ] Day 62 — Koko Eating Bananas (LC #875)
-- [ ] Day 63 — Median of Two Sorted Arrays (LC #4)
+**Week 9 — Binary Search on Answer**
+- [ ] Day 57 — Find Peak Element (LC #162)
+- [ ] Day 58 — Capacity To Ship Packages Within D Days (LC #1011)
+- [ ] Day 59 — Koko Eating Bananas (LC #875)
+- [ ] Day 60 — Split Array Largest Sum (LC #410)
+- [ ] Day 61 — Find in Mountain Array (LC #1095)
+- [ ] Day 62 — Minimize Maximum of Array (LC #2439)
+- [ ] Day 63 — Aggressive Cows (LC #2517)
 
-### Week 10 — Sorting & Order Statistics
-
-- [ ] Day 64 — Merge Intervals (LC #56)
-- [ ] Day 65 — Insert Interval (LC #57)
-- [ ] Day 66 — Non-overlapping Intervals (LC #435)
-- [ ] Day 67 — Kth Largest Element in Array (LC #215)
-- [ ] Day 68 — Sort Colors (Dutch flag) (LC #75)
-- [ ] Day 69 — Largest Number (LC #179)
-- [ ] Day 70 — Wiggle Sort (LC #280)
+**Week 10 — BFS & DFS on Grids**
+- [ ] Day 64 — Number of Islands (LC #200)
+- [ ] Day 65 — Clone Graph (LC #133)
+- [ ] Day 66 — Pacific Atlantic Water Flow (LC #417)
+- [ ] Day 67 — Rotting Oranges (LC #994)
+- [ ] Day 68 — Walls and Gates (LC #286)
+- [ ] Day 69 — Max Area of Island (LC #695)
+- [ ] Day 70 — Surrounded Regions (LC #130)
 
 ## Phase 4 — Recursion & Trees (Days 71–105) — `04-recursion-trees/`
 
-### Week 11 — Recursion
+> Recursion, Backtracking, Binary Trees, BST, Tries, Divide & Conquer
 
-- [ ] Day 71 — Climbing Stairs (LC #70)
-- [ ] Day 72 — Power of Two (LC #231)
-- [ ] Day 73 — Pow(x, n) (LC #50)
-- [ ] Day 74 — Reverse Linked List (recursive) (LC #206)
-- [ ] Day 75 — Fibonacci with memoization (LC #509)
-- [ ] Day 76 — Tower of Hanoi (classic)
-- [ ] Day 77 — Letter Combinations of a Phone Number (LC #17)
+**Week 11 — Recursion & Backtracking**
+- [ ] Day 71 — Fibonacci (LC #509) + Tower of Hanoi (custom)
+- [ ] Day 72 — Tower of Hanoi (custom — no LC equivalent)
+- [ ] Day 73 — Climbing Stairs (LC #70)
+- [ ] Day 74 — Letter Combinations of a Phone Number (LC #17)
+- [ ] Day 75 — Generate Parentheses (LC #22)
+- [ ] Day 76 — Permutations (LC #46)
+- [ ] Day 77 — Subsets (LC #78)
 
-### Week 12 — Backtracking
+**Week 12 — Binary Trees I**
+- [ ] Day 78 — Invert Binary Tree (LC #226)
+- [ ] Day 79 — Maximum Depth of Binary Tree (LC #104)
+- [ ] Day 80 — Diameter of Binary Tree (LC #543)
+- [ ] Day 81 — Balanced Binary Tree (LC #110)
+- [ ] Day 82 — Same Tree (LC #100)
+- [ ] Day 83 — Subtree of Another Tree (LC #572)
+- [ ] Day 84 — Binary Tree Level Order Traversal (LC #102)
 
-- [ ] Day 78 — Subsets (LC #78)
-- [ ] Day 79 — Combinations (LC #77)
-- [ ] Day 80 — Combination Sum (LC #39)
-- [ ] Day 81 — Permutations (LC #46)
-- [ ] Day 82 — Word Search (LC #79)
-- [ ] Day 83 — N-Queens (LC #51)
-- [ ] Day 84 — Palindrome Partitioning (LC #131)
+**Week 13 — Binary Trees II**
+- [ ] Day 85 — Binary Tree Right Side View (LC #199)
+- [ ] Day 86 — Count Good Nodes in Binary Tree (LC #1448)
+- [ ] Day 87 — Validate Binary Search Tree (LC #98)
+- [ ] Day 88 — Lowest Common Ancestor of a BST (LC #235)
+- [ ] Day 89 — Binary Tree Level Order Traversal II (LC #107)
+- [ ] Day 90 — Construct Binary Tree from Preorder and Inorder Traversal (LC #105)
+- [ ] Day 91 — Binary Tree Maximum Path Sum (LC #124)
 
-### Week 13 — Trees: traversals & BFS/DFS
+**Week 14 — BST & Tries**
+- [ ] Day 92 — Kth Smallest Element in a BST (LC #230)
+- [ ] Day 93 — Lowest Common Ancestor of a Binary Tree (LC #236)
+- [ ] Day 94 — Insert into a Binary Search Tree (LC #701)
+- [ ] Day 95 — Delete Node in a BST (LC #450)
+- [ ] Day 96 — Serialize and Deserialize Binary Tree (LC #297)
+- [ ] Day 97 — Implement Trie (Prefix Tree) (LC #208)
+- [ ] Day 98 — Add and Search Word (LC #211)
 
-- [ ] Day 85 — Binary Tree Inorder Traversal (LC #94)
-- [ ] Day 86 — Binary Tree Level Order Traversal (LC #102)
-- [ ] Day 87 — Maximum Depth of Binary Tree (LC #104)
-- [ ] Day 88 — Invert Binary Tree (LC #226)
-- [ ] Day 89 — Same Tree (LC #100)
-- [ ] Day 90 — Symmetric Tree (LC #101)
-- [ ] Day 91 — Path Sum (LC #112)
-
-### Week 14 — Trees: BST
-
-- [ ] Day 92 — Validate BST (LC #98)
-- [ ] Day 93 — Lowest Common Ancestor of BST (LC #235)
-- [ ] Day 94 — Kth Smallest in BST (LC #230)
-- [ ] Day 95 — Delete Node in BST (LC #450)
-- [ ] Day 96 — Convert Sorted Array to BST (LC #108)
-- [ ] Day 97 — Serialize and Deserialize Binary Tree (LC #297)
-- [ ] Day 98 — Diameter of Binary Tree (LC #543)
-
-### Week 15 — Heaps / Priority Queue
-
-- [ ] Day 99 — Last Stone Weight (LC #1046)
-- [ ] Day 100 — K Closest Points to Origin (LC #973)
-- [ ] Day 101 — Find Median from Data Stream (LC #295)
-- [ ] Day 102 — Task Scheduler (LC #621)
-- [ ] Day 103 — Reorganize String (LC #767)
-- [ ] Day 104 — Top K Frequent Words (LC #692)
-- [ ] Day 105 — Merge K Sorted Lists (LC #23)
+**Week 15 — Divide & Conquer + Intro DP**
+- [ ] Day 99 — Word Search II (LC #212)
+- [ ] Day 100 — Majority Element (LC #169)
+- [ ] Day 101 — Sort Colors (LC #75)
+- [ ] Day 102 — Unique Paths (LC #62)
+- [ ] Day 103 — Coin Change (LC #322)
+- [ ] Day 104 — Jump Game (LC #55)
+- [ ] Day 105 — Maximum Product Subarray (LC #152)
 
 ## Phase 5 — DP & Greedy (Days 106–133) — `05-dp-greedy/`
 
-### Week 16 — Greedy
+> 1D DP, 2D DP, Interval DP, Knapsack, State Machine DP, Greedy
 
-- [ ] Day 106 — Jump Game (LC #55)
-- [ ] Day 107 — Jump Game II (LC #45)
-- [ ] Day 108 — Gas Station (LC #134)
-- [ ] Day 109 — Hand of Straights (LC #846)
-- [ ] Day 110 — Partition Labels (LC #763)
-- [ ] Day 111 — Maximum Subarray (greedy view) (LC #53)
-- [ ] Day 112 — Best Time to Buy and Sell Stock with Cooldown (LC #309)
+**Week 16 — 1D Dynamic Programming**
+- [ ] Day 106 — House Robber (LC #198)
+- [ ] Day 107 — House Robber II (LC #213)
+- [ ] Day 108 — Longest Increasing Subsequence (LC #300)
+- [ ] Day 109 — Palindromic Substrings (LC #647)
+- [ ] Day 110 — Decode Ways (LC #91)
+- [ ] Day 111 — Word Break (LC #139)
+- [ ] Day 112 — Integer Break (LC #343)
 
-### Week 17 — DP I (1D)
+**Week 17 — 2D Dynamic Programming**
+- [ ] Day 113 — Unique Paths II (LC #63)
+- [ ] Day 114 — Minimum Path Sum (LC #64)
+- [ ] Day 115 — Longest Common Subsequence (LC #1143)
+- [ ] Day 116 — Edit Distance (LC #72)
+- [ ] Day 117 — Regular Expression Matching (LC #10)
+- [ ] Day 118 — Burst Balloons (LC #312)
+- [ ] Day 119 — Coin Change II (LC #518)
 
-- [ ] Day 113 — Climbing Stairs (DP form) (LC #70)
-- [ ] Day 114 — House Robber (LC #198)
-- [ ] Day 115 — House Robber II (LC #213)
-- [ ] Day 116 — Coin Change (LC #322)
-- [ ] Day 117 — Longest Increasing Subsequence (LC #300)
-- [ ] Day 118 — Word Break (LC #139)
-- [ ] Day 119 — Decode Ways (LC #91)
+**Week 18 — Knapsack Variants**
+- [ ] Day 120 — Partition Equal Subset Sum (LC #416)
+- [ ] Day 121 — Target Sum (LC #494)
+- [ ] Day 122 — Last Stone Weight II (LC #1049)
+- [ ] Day 123 — Ones and Zeroes (LC #474)
+- [ ] Day 124 — Best Time to Buy and Sell Stock with Cooldown (LC #309)
+- [ ] Day 125 — Best Time to Buy and Sell Stock with Transaction Fee (LC #714)
+- [ ] Day 126 — Best Time to Buy and Sell Stock III (LC #123)
 
-### Week 18 — DP II (2D / Grid)
-
-- [ ] Day 120 — Unique Paths (LC #62)
-- [ ] Day 121 — Minimum Path Sum (LC #64)
-- [ ] Day 122 — Longest Common Subsequence (LC #1143)
-- [ ] Day 123 — Edit Distance (LC #72)
-- [ ] Day 124 — Maximal Square (LC #221)
-- [ ] Day 125 — Distinct Subsequences (LC #115)
-- [ ] Day 126 — Interleaving String (LC #97)
-
-### Week 19 — DP III (Knapsack & Advanced)
-
-- [ ] Day 127 — Partition Equal Subset Sum (LC #416)
-- [ ] Day 128 — Target Sum (LC #494)
-- [ ] Day 129 — Best Time to Buy/Sell Stock IV (LC #188)
-- [ ] Day 130 — Burst Balloons (LC #312)
-- [ ] Day 131 — Longest Palindromic Subsequence (LC #516)
-- [ ] Day 132 — Stone Game (LC #877)
-- [ ] Day 133 — Regular Expression Matching (LC #10)
+**Week 19 — Greedy Algorithms**
+- [ ] Day 127 — Jump Game II (LC #45)
+- [ ] Day 128 — Gas Station (LC #134)
+- [ ] Day 129 — Hand of Straights (LC #846)
+- [ ] Day 130 — Merge Triplets to Form Target Triplet (LC #1899)
+- [ ] Day 131 — Partition Labels (LC #763)
+- [ ] Day 132 — Valid Parenthesis String (LC #678)
+- [ ] Day 133 — Candy (LC #135)
 
 ## Phase 6 — Graphs (Days 134–154) — `06-graphs/`
 
-### Week 20 — Graphs: BFS/DFS, Components, Topo Sort
+> Graph Representations, Union-Find, Topological Sort, Shortest Paths, MST
 
-- [ ] Day 134 — Number of Islands (LC #200)
-- [ ] Day 135 — Clone Graph (LC #133)
-- [ ] Day 136 — Pacific Atlantic Water Flow (LC #417)
-- [ ] Day 137 — Course Schedule (LC #207)
-- [ ] Day 138 — Course Schedule II (LC #210)
-- [ ] Day 139 — Surrounded Regions (LC #130)
-- [ ] Day 140 — Walls and Gates (LC #286)
+**Week 20 — Graph Foundations & Union-Find**
+- [ ] Day 134 — Number of Connected Components in an Undirected Graph (LC #323)
+- [ ] Day 135 — Graph Valid Tree (LC #261)
+- [ ] Day 136 — Redundant Connection (LC #684)
+- [ ] Day 137 — Accounts Merge (LC #721)
+- [ ] Day 138 — Number of Provinces (LC #547)
+- [ ] Day 139 — Course Schedule (LC #207)
+- [ ] Day 140 — Course Schedule II (LC #210)
 
-### Week 21 — Graphs: Shortest Paths
-
-- [ ] Day 141 — Network Delay Time (Dijkstra) (LC #743)
+**Week 21 — Shortest Paths**
+- [ ] Day 141 — Network Delay Time (LC #743)
 - [ ] Day 142 — Cheapest Flights Within K Stops (LC #787)
-- [ ] Day 143 — Path with Minimum Effort (LC #1631)
+- [ ] Day 143 — Path With Maximum Probability (LC #1514)
 - [ ] Day 144 — Swim in Rising Water (LC #778)
-- [ ] Day 145 — Word Ladder (LC #127)
-- [ ] Day 146 — Open the Lock (LC #752)
-- [ ] Day 147 — Shortest Path in Binary Matrix (LC #1091)
+- [ ] Day 145 — Reconstruct Itinerary (LC #332)
+- [ ] Day 146 — Alien Dictionary (LC #269)
+- [ ] Day 147 — Find the City With the Smallest Number of Neighbors at a Threshold Distance (LC #1334)
 
-### Week 22 — Union-Find & MST
+**Week 22 — MST & Advanced Graphs**
+- [ ] Day 148 — Min Cost to Connect All Points (LC #1584)
+- [ ] Day 149 — Critical Connections in a Network (LC #1192)
+- [ ] Day 150 — Word Ladder (LC #127)
+- [ ] Day 151 — Bus Routes (LC #815)
+- [ ] Day 152 — Evaluate Division (LC #399)
+- [ ] Day 153 — Shortest Path in a Grid with Obstacles Elimination (LC #1293)
+- [ ] Day 154 — Matching Engine Capstone (custom — no LC equivalent)
 
-- [ ] Day 148 — Number of Connected Components (LC #323)
-- [ ] Day 149 — Graph Valid Tree (LC #261)
-- [ ] Day 150 — Redundant Connection (LC #684)
-- [ ] Day 151 — Accounts Merge (LC #721)
-- [ ] Day 152 — Min Cost to Connect All Points (MST) (LC #1584)
-- [ ] Day 153 — Most Stones Removed with Same Row or Column (LC #947)
-- [ ] Day 154 — Satisfiability of Equality Equations (LC #990)
+## Phase 7 — Specialized Quant (Days 155–168) — `07-specialized-quant/`
 
-## Phase 7 — Specialized & Quant (Days 155–168) — `07-specialized-quant/`
+> Segment Trees, BIT, Bit Manipulation, Heaps for Streams, Simulation
 
-### Week 23 — Bit Manipulation, Math, Probability
+**Week 23 — Range Queries & Order Statistics**
+- [ ] Day 155 — Range Sum Query — Mutable (LC #307)
+- [ ] Day 156 — Count of Smaller Numbers After Self (LC #315)
+- [ ] Day 157 — Queue Reconstruction by Height (LC #406)
+- [ ] Day 158 — Number of Longest Increasing Subsequence (LC #673)
+- [ ] Day 159 — Find Median from Data Stream (LC #295)
+- [ ] Day 160 — Sliding Window Median (LC #480)
+- [ ] Day 161 — Design Hit Counter (LC #362)
 
-- [ ] Day 155 — Single Number (LC #136)
-- [ ] Day 156 — Number of 1 Bits (LC #191)
-- [ ] Day 157 — Counting Bits (LC #338)
-- [ ] Day 158 — Reverse Bits (LC #190)
-- [ ] Day 159 — Sum of Two Integers (no `+`) (LC #371)
-- [ ] Day 160 — Random Pick with Weight (LC #528)
-- [ ] Day 161 — Random Pick Index — Reservoir Sampling (LC #398)
+**Week 24 — Bit Manipulation & Capstone**
+- [ ] Day 162 — Single Number (LC #136)
+- [ ] Day 163 — Number of 1 Bits (LC #191)
+- [ ] Day 164 — Counting Bits (LC #338)
+- [ ] Day 165 — Reverse Bits (LC #190)
+- [ ] Day 166 — Sum of Two Integers (LC #371)
+- [ ] Day 167 — Missing Number (LC #268)
+- [ ] Day 168 — Design Hit Counter II — Circular Buffer (custom — no LC equivalent)
 
-### Week 24 — Quant Patterns & Capstone
-
-- [ ] Day 162 — Design Twitter (LC #355)
-- [ ] Day 163 — Time-Based Key-Value Store (LC #981)
-- [ ] Day 164 — Stock Price Fluctuation (LC #2034)
-- [ ] Day 165 — Online Stock Span (LC #901)
-- [ ] Day 166 — Order book mini-design (custom, two heaps for bids/asks)
-- [ ] Day 167 — VWAP rolling window (custom, weighted moving avg)
-- [ ] Day 168 — Capstone — sketch a matching engine in C++
+---
 
 ## Completed Lessons Log
 
-%% Routine appends entries here as `- Day N — Problem — [link](path)` %%
+- Day 1 — Two Sum — [link](01-foundations/2026-04-29-day-01-two-sum.md)
