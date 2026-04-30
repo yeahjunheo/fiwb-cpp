@@ -2,19 +2,12 @@
 date: 2026-04-29
 day: 2
 phase: 01-foundations
-tags:
-  - cpp
-  - quant
-  - types
-  - primitives
-aliases:
-  - Day 2 Fundamental Types and Sizes
+tags: [cpp, quant, types, primitives]
 ---
 
 # Day 2 — Fundamental Types and Sizes
 
-> [!abstract] Why this matters
-> Yesterday you saw how a `.cpp` file becomes an executable. Today you meet the alphabet that file is written in: the built-in types. C++ has many number types where Python has one, and each one has a fixed size in memory. Knowing which type to pick — and why — is the first real C++ skill, and it shows up everywhere from "why did my number wrap around?" to "why does this trading system use `int64_t` for timestamps?"
+> **Why this matters:** Yesterday you saw how a `.cpp` file becomes an executable. Today you meet the alphabet that file is written in: the built-in types. C++ has many number types where Python has one, and each one has a fixed size in memory. Knowing which type to pick — and why — is the first real C++ skill, and it shows up everywhere from "why did my number wrap around?" to "why does this trading system use `int64_t` for timestamps?"
 
 ## Concept
 
@@ -30,14 +23,11 @@ There are three families to know on Day 2.
 
 **Other essentials.** `bool` is true/false (technically 1 byte even though it only needs 1 bit). `char` doubles as both a tiny integer and a single character (`'A'` is the integer 65 with a `char` label). Finally, `size_t` is an unsigned integer type used for sizes and counts; it shows up everywhere in the standard library, so you'll see it constantly.
 
-> [!info] The `sizeof` operator
-> `sizeof(T)` tells you how many bytes type `T` takes on your machine. It is computed at compile time. `sizeof(int)` is almost always 4. `sizeof(double)` is almost always 8. When in doubt, ask the compiler — print it.
+> **Key idea:** `sizeof(T)` tells you how many bytes type `T` takes on your machine. It is computed at compile time. `sizeof(int)` is almost always 4. `sizeof(double)` is almost always 8. When in doubt, ask the compiler — print it.
 
-> [!warning] Integer overflow is silent
-> If you store 2,200,000,000 in a 32-bit `int` (which maxes out around 2.14 billion), the value silently wraps around to a negative number. No error, no warning — just wrong math. This is one of the most common bug sources in C++, and we will respect it.
+> **Warning: Integer overflow is silent.** If you store 2,200,000,000 in a 32-bit `int` (which maxes out around 2.14 billion), the value silently wraps around to a negative number. No error, no warning — just wrong math. This is one of the most common bug sources in C++, and we will respect it.
 
-> [!tip] Why so many types?
-> Memory and speed. A market-data feed sending billions of price updates a day saves real RAM and bandwidth when each price uses 4 bytes instead of 8. And the CPU operates faster on data that fits its native word size. C++ exposes the choice; Python hides it.
+> **Note: Why so many types?** Memory and speed. A market-data feed sending billions of price updates a day saves real RAM and bandwidth when each price uses 4 bytes instead of 8. And the CPU operates faster on data that fits its native word size. C++ exposes the choice; Python hides it.
 
 ## Code Example
 
@@ -190,5 +180,5 @@ Goal: see types and overflow with your own eyes.
 
 ## Links
 
-- [[cpp-roadmap]]
-- Previous: [[2026-04-29-day-01-compilation-model]]
+- [Roadmap](../cpp-roadmap.md)
+- Previous: [Day 1 — Compilation Model](2026-04-29-day-01-compilation-model.md)
