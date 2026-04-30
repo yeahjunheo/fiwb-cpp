@@ -11,8 +11,8 @@ tags: [cp, leetcode, roadmap, tracker]
 
 ## State
 
-- **current_day:** 3
-- **last_completed:** Day 2 — Best Time to Buy and Sell Stock (2026-04-29)
+- **current_day:** 4
+- **last_completed:** Day 3 — Contains Duplicate (2026-04-30)
 - **start_date:** 2026-04-29
 
 ## Phase 1 — Foundations (Days 1–28) — `01-foundations/`
@@ -22,7 +22,7 @@ tags: [cp, leetcode, roadmap, tracker]
 **Week 1 — Arrays & Hash Maps**
 - [x] Day 1 — Two Sum (LC #1) — [link](01-foundations/2026-04-29-day-01-two-sum.md)
 - [x] Day 2 — Best Time to Buy and Sell Stock (LC #121) — [link](01-foundations/2026-04-29-day-02-best-time-to-buy-and-sell-stock.md)
-- [ ] Day 3 — Contains Duplicate (LC #217)
+- [x] Day 3 — Contains Duplicate (LC #217) — [link](01-foundations/2026-04-30-day-03-contains-duplicate.md)
 - [ ] Day 4 — Product of Array Except Self (LC #238)
 - [ ] Day 5 — Maximum Subarray (LC #53)
 - [ ] Day 6 — Valid Anagram (LC #242)
@@ -265,3 +265,4 @@ tags: [cp, leetcode, roadmap, tracker]
 
 - Day 1 — Two Sum — [link](01-foundations/2026-04-29-day-01-two-sum.md)
 - Day 2 — Best Time to Buy and Sell Stock — [link](01-foundations/2026-04-29-day-02-best-time-to-buy-and-sell-stock.md)
+- Day 3 — Contains Duplicate — [link](01-foundations/2026-04-30-day-03-contains-duplicate.md)
