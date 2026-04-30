@@ -11,15 +11,15 @@ tags: [cpp, quant, roadmap, tracker]
 
 ## State
 
-- **current_day:** 2
-- **last_completed:** Day 1 — Compilation model (2026-04-29)
+- **current_day:** 3
+- **last_completed:** Day 2 — Fundamental types and sizes (2026-04-29)
 - **start_date:** 2026-04-29
 - **lesson_format:** Concept → Code Example → **Quant Application** → Pitfalls → Exercise → Tomorrow's Preview
 
 ## Phase 1 — Foundations (Days 1–21) — `01-foundations/`
 
 - [x] Day 1 — Compilation model: preprocessor, compiler, linker — [link](01-foundations/2026-04-29-day-01-compilation-model.md)
-- [ ] Day 2 — Fundamental types and sizes
+- [x] Day 2 — Fundamental types and sizes — [link](01-foundations/2026-04-29-day-02-fundamental-types-and-sizes.md)
 - [ ] Day 3 — `const`, `constexpr`, `mutable`
 - [ ] Day 4 — References vs pointers
 - [ ] Day 5 — Pointer arithmetic
@@ -208,3 +208,4 @@ tags: [cpp, quant, roadmap, tracker]
 ## Completed Lessons Log
 
 - Day 1 — Compilation model — [link](01-foundations/2026-04-29-day-01-compilation-model.md)
+- Day 2 — Fundamental types and sizes — [link](01-foundations/2026-04-29-day-02-fundamental-types-and-sizes.md)
