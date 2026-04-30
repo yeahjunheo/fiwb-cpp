@@ -11,8 +11,8 @@ tags: [cpp, quant, roadmap, tracker]
 
 ## State
 
-- **current_day:** 3
-- **last_completed:** Day 2 — Fundamental types and sizes (2026-04-29)
+- **current_day:** 4
+- **last_completed:** Day 3 — `const`, `constexpr`, `mutable` (2026-04-30)
 - **start_date:** 2026-04-29
 - **lesson_format:** Concept → Code Example → **Quant Application** → Pitfalls → Exercise → Tomorrow's Preview
 
@@ -20,7 +20,7 @@ tags: [cpp, quant, roadmap, tracker]
 
 - [x] Day 1 — Compilation model: preprocessor, compiler, linker — [link](01-foundations/2026-04-29-day-01-compilation-model.md)
 - [x] Day 2 — Fundamental types and sizes — [link](01-foundations/2026-04-29-day-02-fundamental-types-and-sizes.md)
-- [ ] Day 3 — `const`, `constexpr`, `mutable`
+- [x] Day 3 — `const`, `constexpr`, `mutable` — [link](01-foundations/2026-04-30-day-03-const-constexpr-mutable.md)
 - [ ] Day 4 — References vs pointers
 - [ ] Day 5 — Pointer arithmetic
 - [ ] Day 6 — Stack vs heap basics
@@ -209,3 +209,4 @@ tags: [cpp, quant, roadmap, tracker]
 
 - Day 1 — Compilation model — [link](01-foundations/2026-04-29-day-01-compilation-model.md)
 - Day 2 — Fundamental types and sizes — [link](01-foundations/2026-04-29-day-02-fundamental-types-and-sizes.md)
+- Day 3 — `const`, `constexpr`, `mutable` — [link](01-foundations/2026-04-30-day-03-const-constexpr-mutable.md)
