@@ -11,8 +11,8 @@ tags: [cp, leetcode, roadmap, tracker]
 
 ## State
 
-- **current_day:** 4
-- **last_completed:** Day 3 — Contains Duplicate (2026-04-30)
+- **current_day:** 5
+- **last_completed:** Day 4 — Product of Array Except Self (2026-05-01)
 - **start_date:** 2026-04-29
 
 ## Phase 1 — Foundations (Days 1–28) — `01-foundations/`
@@ -23,7 +23,7 @@ tags: [cp, leetcode, roadmap, tracker]
 - [x] Day 1 — Two Sum (LC #1) — [link](01-foundations/2026-04-29-day-01-two-sum.md)
 - [x] Day 2 — Best Time to Buy and Sell Stock (LC #121) — [link](01-foundations/2026-04-29-day-02-best-time-to-buy-and-sell-stock.md)
 - [x] Day 3 — Contains Duplicate (LC #217) — [link](01-foundations/2026-04-30-day-03-contains-duplicate.md)
-- [ ] Day 4 — Product of Array Except Self (LC #238)
+- [x] Day 4 — Product of Array Except Self (LC #238) — [link](01-foundations/2026-05-01-day-04-product-of-array-except-self.md)
 - [ ] Day 5 — Maximum Subarray (LC #53)
 - [ ] Day 6 — Valid Anagram (LC #242)
 - [ ] Day 7 — Group Anagrams (LC #49)
@@ -266,3 +266,4 @@ tags: [cp, leetcode, roadmap, tracker]
 - Day 1 — Two Sum — [link](01-foundations/2026-04-29-day-01-two-sum.md)
 - Day 2 — Best Time to Buy and Sell Stock — [link](01-foundations/2026-04-29-day-02-best-time-to-buy-and-sell-stock.md)
 - Day 3 — Contains Duplicate — [link](01-foundations/2026-04-30-day-03-contains-duplicate.md)
+- Day 4 — Product of Array Except Self — [link](01-foundations/2026-05-01-day-04-product-of-array-except-self.md)
