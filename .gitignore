@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+*.swp
+*~
+
+# C++ build intermediates (compiled binaries are intentionally tracked)
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dSYM/
