@@ -11,8 +11,8 @@ tags: [cpp, quant, roadmap, tracker]
 
 ## State
 
-- **current_day:** 5
-- **last_completed:** Day 4 — References vs Pointers (2026-05-01)
+- **current_day:** 6
+- **last_completed:** Day 5 — Pointer Arithmetic (2026-05-03)
 - **start_date:** 2026-04-29
 - **lesson_format:** Concept → Code Example → **Quant Application** → Pitfalls → Exercise → Tomorrow's Preview
 
@@ -22,7 +22,7 @@ tags: [cpp, quant, roadmap, tracker]
 - [x] Day 2 — Fundamental types and sizes — [link](01-foundations/2026-04-29-day-02-fundamental-types-and-sizes.md)
 - [x] Day 3 — `const`, `constexpr`, `mutable` — [link](01-foundations/2026-04-30-day-03-const-constexpr-mutable.md)
 - [x] Day 4 — References vs pointers — [link](01-foundations/2026-05-01-day-04-references-vs-pointers.md)
-- [ ] Day 5 — Pointer arithmetic
+- [x] Day 5 — Pointer arithmetic — [link](01-foundations/2026-05-03-day-05-pointer-arithmetic.md)
 - [ ] Day 6 — Stack vs heap basics
 - [ ] Day 7 — Functions: pass by value, ref, const ref
 - [ ] Day 8 — Function overloading
@@ -211,3 +211,4 @@ tags: [cpp, quant, roadmap, tracker]
 - Day 2 — Fundamental types and sizes — [link](01-foundations/2026-04-29-day-02-fundamental-types-and-sizes.md)
 - Day 3 — `const`, `constexpr`, `mutable` — [link](01-foundations/2026-04-30-day-03-const-constexpr-mutable.md)
 - Day 4 — References vs Pointers — [link](01-foundations/2026-05-01-day-04-references-vs-pointers.md)
+- Day 5 — Pointer Arithmetic — [link](01-foundations/2026-05-03-day-05-pointer-arithmetic.md)
