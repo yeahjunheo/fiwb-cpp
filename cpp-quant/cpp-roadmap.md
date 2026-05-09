@@ -11,8 +11,8 @@ tags: [cpp, quant, roadmap, tracker]
 
 ## State
 
-- **current_day:** 8
-- **last_completed:** Day 7 — Functions: Pass by Value, Ref, Const Ref (2026-05-06)
+- **current_day:** 9
+- **last_completed:** Day 8 — Function Overloading (2026-05-09)
 - **start_date:** 2026-04-29
 - **lesson_format:** Concept → Code Example → **Quant Application** → Pitfalls → Exercise → Tomorrow's Preview
 
@@ -25,7 +25,7 @@ tags: [cpp, quant, roadmap, tracker]
 - [x] Day 5 — Pointer arithmetic — [link](01-foundations/2026-05-03-day-05-pointer-arithmetic.md)
 - [x] Day 6 — Stack vs heap basics — [link](01-foundations/2026-05-03-day-06-stack-vs-heap-basics.md)
 - [x] Day 7 — Functions: pass by value, ref, const ref — [link](01-foundations/2026-05-06-day-07-functions-pass-by-value-ref-const-ref.md)
-- [ ] Day 8 — Function overloading
+- [x] Day 8 — Function overloading — [link](01-foundations/2026-05-09-day-08-function-overloading.md)
 - [ ] Day 9 — Default arguments
 - [ ] Day 10 — Header files, include guards, `#pragma once`
 - [ ] Day 11 — Translation units, ODR (One Definition Rule)
@@ -214,3 +214,4 @@ tags: [cpp, quant, roadmap, tracker]
 - Day 5 — Pointer Arithmetic — [link](01-foundations/2026-05-03-day-05-pointer-arithmetic.md)
 - Day 6 — Stack vs Heap Basics — [link](01-foundations/2026-05-03-day-06-stack-vs-heap-basics.md)
 - Day 7 — Functions: Pass by Value, Ref, Const Ref — [link](01-foundations/2026-05-06-day-07-functions-pass-by-value-ref-const-ref.md)
+- Day 8 — Function Overloading — [link](01-foundations/2026-05-09-day-08-function-overloading.md)
