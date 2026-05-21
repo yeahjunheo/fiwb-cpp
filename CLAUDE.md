@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+**Also read `AGENTS.md`** — it defines the interactive workflows (especially the competitive-programming problem workflow) that apply across every session.
+
+@AGENTS.md
+
 ## Repo purpose
 
 Personal practice log for a 168-day quant-developer curriculum. Two parallel tracks generate one Markdown lesson per day; daily scratch C++ code lives in dated folders. There is no application to build or test suite to run — the repo is a notebook plus throwaway exercises.
