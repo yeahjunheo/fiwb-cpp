@@ -37,10 +37,10 @@ int main() {
 }
 ```
 
-Then open it in VSCode via Bash:
+Then open it in VSCode via Bash. **Use `open -a "Visual Studio Code"`, not `code`** — the `code` CLI bridge causes VSCode to focus a stale, empty buffer from session restore instead of reading the freshly-scaffolded file from disk, forcing the user to close-without-saving and reopen. macOS Launch Services (`open -a`) forces a fresh load:
 
 ```bash
-code exercises/<today_YYYYMMDD>/<problem-id>.cpp
+open -a "Visual Studio Code" exercises/<today_YYYYMMDD>/<problem-id>.cpp
 ```
 
 ### 3. Acknowledge briefly
