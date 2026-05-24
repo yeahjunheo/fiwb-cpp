@@ -37,10 +37,10 @@ int main() {
 }
 ```
 
-Then open it in VSCode via Bash. **Use `open -a "Visual Studio Code"`, not `code`** — the `code` CLI bridge causes VSCode to focus a stale, empty buffer from session restore instead of reading the freshly-scaffolded file from disk, forcing the user to close-without-saving and reopen. macOS Launch Services (`open -a`) forces a fresh load:
+Do **not** spawn the editor yourself — the user edits in `nvim` in their own terminal, and launching it from Bash would either hijack the agent's terminal or detach from the user's session. After scaffolding, print the exact command for the user to copy-paste:
 
-```bash
-open -a "Visual Studio Code" exercises/<today_YYYYMMDD>/<problem-id>.cpp
+```
+nvim exercises/<today_YYYYMMDD>/<problem-id>.cpp
 ```
 
 ### 3. Acknowledge briefly
