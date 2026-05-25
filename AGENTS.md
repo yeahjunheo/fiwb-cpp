@@ -75,6 +75,41 @@ The user will say what they want. Match the ask precisely — don't escalate or 
 
 For ad-hoc C++ scratch code tied to a lesson (not from a problem URL), use the same `exercises/YYYYMMDD/` folder but with descriptive filenames matching the lesson topic (e.g. `overflow.cpp`, `types.cpp`). Compile the same way. No special workflow — just write and run.
 
+## Toolchain: `oj` (online-judge-tools)
+
+`oj` is installed and authenticated against AtCoder. Use it for sample testing; **never submit on the user's behalf**.
+
+### Setup state — don't redo
+
+- `oj` on PATH (pyenv-managed Python 3.12). Version: `online-judge-tools 11.5.1`.
+- Auth via cookie at `~/Library/Application Support/online-judge-tools/cookie.jar`. The cookie is exported from a Helium browser session because Cloudflare blocks `oj login`'s direct POST and `oj`'s Selenium driver can't be pointed at Helium.
+- **When the cookie expires** (~6 months from last refresh): user opens Helium → atcoder.jp → DevTools → Application → Cookies → copies the `REVEL_SESSION` value → pastes to the agent → agent splices it into the LWP-format `cookie.jar` (replace the existing `Set-Cookie3: REVEL_SESSION="..."` line).
+
+### Testing samples
+
+Once samples are downloaded for a problem, prefer `oj t` to manual `echo "..." | ./bin`:
+
+```bash
+cd exercises/<YYYYMMDD>
+oj d <problem-url>          # one-time per problem; drops samples into ./test/
+g++ -std=c++20 -Wall -Wextra <file>.cpp -o <bin>
+oj t -c ./<bin>             # runs all samples, color-diffs got vs. expected
+```
+
+The `test/` subfolder is per-problem. Don't reuse one across problems. Safe to leave uncommitted or commit alongside binaries — matches the repo's existing convention.
+
+If `oj d` hasn't been run yet for a given problem, do that first (it's a single command; samples persist). The CP problem workflow's WebFetch step still captures the problem **text** (title, restatement, constraints, format) for the agent's own understanding and the brief acknowledgement to the user; `oj d` is just for the sample I/O files on disk.
+
+### Submission
+
+**The user submits, not the agent.** When they're ready, they run:
+
+```bash
+oj s <problem-url> <file>.cpp
+```
+
+Don't volunteer to submit, don't ask "should I submit?", don't chain submission onto any other command.
+
 ## See also
 
 - `CLAUDE.md` — repo structure, curriculum tracks, lesson-generation workflow, when to use web tools.
